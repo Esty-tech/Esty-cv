@@ -25,6 +25,15 @@ div{
     padding: 2%;
 }
 
+h2{
+      color: 255,0,0;
+}
+
+p{
+     color: 0,255,255;
+}
+
+
 .right{
     border: black solid 1px;
     width: 20%; align-content: center;
