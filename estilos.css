@@ -1,0 +1,117 @@
+@import url(media.css);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   }
+p{
+    font-size: 18px;
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+    text-align: center;
+}
+.cuerpo{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom:3px; 
+}
+.cuerpo{
+    margin-top: 10px;
+}
+footer{
+    clear: both;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 3px solid rgb(0, 0, 0);
+    margin-bottom: 20px ;
+}
+.copy{
+    text-align: center;
+}
+.sociales{
+    color:rgb(10, 10, 10);
+    height: 40px;
+}
+.sociales a{
+    display: inline-table;
+    margin: 3px;
+    padding: 3px;
+    border-right: solid 1px rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+.sociales a:hover{
+    padding-left: 8px;
+}
+.contenido{
+    display: block;
+    border-right: rgb(0, 0, 255) solid 2px;
+    width: 50%;
+    padding: 5px;
+    height: 100%;
+}
+.lateral{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    height: 800px;
+    padding: 5px;
+    float: right;
+    top: 50px;
+}
+.lateral header{
+    font-size: 22px;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(4, 0, 255);
+    height: 70px;
+    top: 50px;
+    margin-bottom: 20px;
+}
+header{
+    font-size: 27px;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 165, 0);
+    display: block;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.principal{
+    display: block;
+
+}
+.perfil{
+        text-align: left;
+}
+
+
+.portafolio p{
+    background-color: rgb(255, 165, 0);
+}
+.foto{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+img{
+    display: block;
+    height: 200px;
+    border-radius: 65px;
+    margin-left: 20px;
+    }
+.contacto ul{
+    list-style: none;
+}

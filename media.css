@@ -1,0 +1,74 @@
+@media (min-width: 600px) {
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        max-width: 800px;
+       font-family: Arial, Helvetica, sans-serif;
+       }
+    p{
+        font-size: 22px;
+        font-family: serif;
+        font-weight: bold;
+        color: rgb(0, 0, 255);
+        text-decoration: underline;
+        text-align: center;
+    }
+    .cuerpo{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        margin
+    }
+    .cuerpo{
+        margin-top: 10px;
+    }
+    footer{
+        clear: both;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 3px solid rgb(0, 0, 0);
+        
+        margin-bottom: 20px ;
+    }
+   
+    .contenido{
+        display: block;
+        width: 50%;
+        height: 400px;
+        padding: 10px;
+        height: 100%;
+    }
+    
+    .lateral{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        float: right;
+    }
+    .perfil{
+        text-align: left;
+    }
+    .lateral header{
+        font-size: 30px;
+        font-family: serif;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(4, 0, 255);
+        height: 50px;
+    }
+    header{
+        font-size: 30px;
+        font-family: serif;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(0, 0, 255);
+        display: block;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+   
+}
