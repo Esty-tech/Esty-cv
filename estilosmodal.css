@@ -18,7 +18,7 @@
 
 .VentModal{
     width: 100%;
-    height: auto;
+    height: 100%;
     position: fixed;
     top: -300%;
     left: 0px;
