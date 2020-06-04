@@ -1,12 +1,14 @@
-@import url(media.css);
-
 *{
     padding: 0px;
     margin: 0px;
+   }
+
+   body{
     display: block;
     box-sizing: border-box;
    font-family: Arial, Helvetica, sans-serif;
    }
+
 p{
     font-size: 18px;
     font-family: serif;
@@ -31,6 +33,7 @@ footer{
     width: 100%;
     box-sizing: border-box;
     border-top: 3px solid rgb(0, 0, 0);
+    margin-top: 60px;
     margin-bottom: 20px ;
 }
 .copy{
@@ -39,9 +42,11 @@ footer{
 .sociales{
     color:rgb(10, 10, 10);
     height: 40px;
+    margin-top: 20px;
 }
 .sociales a{
     display: inline-table;
+    margin-top: ;
     margin: 3px;
     padding: 3px;
     border-right: solid 1px rgb(0, 0, 0);
