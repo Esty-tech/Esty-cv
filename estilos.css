@@ -3,12 +3,27 @@
     margin: 0px;
    }
 
+   #myCarousel, .carousel slide, .carousel-indicators{
+    top: 25px;
+    margin-top: 10px;
+    float: none;
+ }
+ 
+ .carousel-caption p{
+     text-align: center;
+     background: rgba(65, 197, 65, 0.753);
+     color: rgb(252, 252, 252);
+     border-radius: 30%;
+     float: none;
+ }
+
    body{
     display: block;
     max-width: 800px;
     min-width: 300px;
     box-sizing: border-box;
    font-family: Arial, Helvetica, sans-serif;
+   
    }
 
 p{
@@ -20,15 +35,13 @@ p{
     text-align: center;
 }
 .cuerpo{
+    margin-top: 50px;
     display: block;
     width: 100%;
     box-sizing: border-box;
     padding: 8px;
     margin-bottom:3px; 
-}
-.cuerpo{
-    margin-top: 10px;
-}
+    }
 footer{
     clear: both;
     display: block;
@@ -41,6 +54,14 @@ footer{
 .copy{
     text-align: center;
 }
+footer video{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    top: 50px;
+    caption-side: bottom;
+}
+
 .sociales{
     color:rgb(10, 10, 10);
     height: 40px;
