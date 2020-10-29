@@ -11,8 +11,9 @@
  
  .carousel-caption p{
      text-align: center;
-     background: rgba(65, 197, 65, 0.753);
-     color: rgb(252, 252, 252);
+     background: rgba(245, 141, 5, 0.582);
+     color: rgb(255, 255, 255);
+     text-decoration: none;
      border-radius: 30%;
      float: none;
  }

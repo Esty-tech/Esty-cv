@@ -14,7 +14,22 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/e570fae7f7.js"></script>
     <script src="https://kit.fontawesome.com/eb9a2aef55.js" crossorigin="anonymous"></script> 
- 
+    <script src="colega.json"></script> 
+
+    <script>
+      $.getJSON("colega.json", function( data ) {
+        var colega = [];
+        var estado = "";
+        $.each( data, function(key, val) {
+          items.push( "<li id='" + key + "'>" + val + "</li>" );
+        });
+        $( "<ul/>", {
+          "class": "my-new-list",
+          html: colega.join("")
+        }).appendTo("body");
+      });
+    </script>
+
              <link rel="stylesheet" href="media.css">   
              <link rel="stylesheet" href="estilosmodal.css"> 
              <link rel="stylesheet" href="estilos.css">
@@ -55,9 +70,9 @@
         <div class="carousel-inner" role="listbox">
     
           <div class="item active">
-            <img src="hotel2.jpg" alt="Chania" width="460" height="345">
+            <img src="fotoo.jpg" alt="Chania" width="460" height="345">
             <div class="carousel-caption">
-              <p>LUGAR APARTADO PARA UN MOMENTO RELAJADO</p>
+              <p>Los desafios me motivan</p>
               
             </div>
           </div>
@@ -65,17 +80,17 @@
           
     
           <div class="item">
-            <img src="hotel6.jpg" alt="Chania" width="460" height="345">
+            <img src="certif html-css.jpg" alt="Chania" width="460" height="345">
             <div class="carousel-caption">
-              <p>PLAYA DE AGUA TIBIA</p>
+              <p>Competencias en html-css</p>
               
             </div>
           </div>
     
           <div class="item">
-            <img src="hotel1.jpg" alt="Chania" width="460" height="345">
+            <img src="linkedin.jpg" alt="Chania" width="460" height="345">
             <div class="carousel-caption">
-              <p>PISCINA ESPECTACULAR</p>
+              <p>Mi pagina de LinkedIn</p>
               
             </div>
           </div>
@@ -149,7 +164,7 @@
                  Mi objetivo es trabajar en su empresa como programadora y continuar aprendiendo.</div>
                  <!-- Container (Portfolio Section) -->
 <div class="container-fluid text-center bg-grey">
-  <h2>Portfolio en fotos</h2><br>
+  <hr> <p>Portfolio en fotos</p><br>
   <h4>What we have created</h4>
   <div class="row text-center">
     <div class="col-sm-4">
@@ -176,7 +191,9 @@
   </div>
 </div>
 
-
+<div class="recomendation">
+  <hr><p>Colegas</p>
+</div>
                  
         </div>
         
