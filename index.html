@@ -15,6 +15,7 @@
   <script src="https://use.fontawesome.com/e570fae7f7.js"></script>
     <script src="https://kit.fontawesome.com/eb9a2aef55.js" crossorigin="anonymous"></script> 
     <script src="colega.json"></script> 
+    <link rel="import" href="calendar.html">
 
     <script>
       $.getJSON("colega.json", function( data ) {
@@ -348,6 +349,20 @@
           });
         });
       </script>
+
+<Script> $.getJSON( "grupocilsa.json", function( data ) {
+  var colegas = [];
+  $.each( data, function( key, val ) {
+    colegas.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: colegas.join( "" )
+  }).appendTo( "body" );
+});
+</script>
+
         <div class="copy">&copy;2020 Esty-tech</div>
     </footer>
 
@@ -448,6 +463,32 @@
         }
     </style>
 </div>
+
+<div> <a href = "calendar.html">no aparece por queeeeeeeeee</a> </div>
+
+<script>
+  document.write (calendar.html);
+</script>
+
+<base href="https://demos.telerik.com/kendo-ui/calendar/selection?autoRun=true&theme=material-v2">
+    
+<div id="example">
+    <div class="demo-section k-content" style="text-align: center;">
+        <h4>Chequea si la habitacion que deseas esta disponible en la fecha que la queres</h4>
+        <div id="calendar"></div>
+    </div>
+    <script>
+                $(document).ready(function() {
+                    // create Calendar from div HTML element
+                    $("#calendar").kendoCalendar({
+                        selectable: "multiple",
+                        weekNumber: true,
+                        disableDates: ["we", "sa"]
+                    });
+                });
+    </script>
+</div>
+
 
 
     
