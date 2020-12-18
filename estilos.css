@@ -12,6 +12,52 @@
     background-color: rgba(255, 235, 197, 0.849);
     border: 2px dotted rgb(248, 145, 10);
   }
+  .aver:link, a:visited {
+    background-color: rgb(49, 46, 46);
+    height: 15px;
+    width: auto;
+    color: rgb(252, 249, 249);
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px solid white;
+    margin: 10px;
+    
+  }
+
+  .av:link, a:visited {
+    background-color: rgb(28, 192, 28);
+    height: 30px;
+    width: auto;
+    color: red;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px solid white;
+    margin: 10px;
+    
+  }
+
+  a:link {
+    color: rgba(14, 13, 13, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgba(31, 248, 11, 0.774);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
   body ul li{
     list-style: none;
 }
